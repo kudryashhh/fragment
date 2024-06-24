@@ -1,0 +1,368 @@
+body{
+    overflow-x: hidden;
+    width: 100vw;
+    height: 80%;
+
+}
+
+body::-webkit-scrollbar {
+    position: absolute;
+    width: 4px;               /* ширина scrollbar */
+  }
+  body::-webkit-scrollbar-track {
+    position: absolute;
+    background: rgb(255, 255, 255);
+    overflow: overlay;        /* цвет дорожки */
+  }
+  body::-webkit-scrollbar-thumb {
+    position: absolute;   /* цвет плашки */
+    border-radius: 0px;       /* закругления плашки */
+    border: 30px solid rgb(73, 73, 73);  /* padding вокруг плашки */
+  }
+
+.head1{
+    position: absolute;
+    margin-top: 0.5%;
+}
+
+.head2{
+    position: absolute;
+    margin-left: 80%;
+    margin-top: 0.5%;
+}
+
+.text1{
+    position: absolute;
+    margin-top: 10%;
+    width: 24%;
+}
+
+.text2{
+    position: absolute;
+    margin-top: 50%;
+    width: 24%;
+}
+
+.logo{
+    position: absolute;
+    width: 26%;
+    margin-left: 40%;
+    margin-top: 5%;
+}
+
+.logo_type{
+    position: absolute;
+    width: 100%;
+    z-index: 4;
+    cursor: pointer;
+}
+
+.f1{
+    position: absolute;
+    width: 45%;
+    opacity: 0;
+    margin-left: 30%;
+    margin-top: 8%;
+}
+
+.logo_type:hover{
+    opacity: 0;
+}
+
+.logo_type:hover~.f1{
+    opacity: 1;
+}
+.logo_type:hover~.f2{
+    opacity: 1;
+}
+.logo_type:hover~.f3{
+    opacity: 1;
+}
+.logo_type:hover~.f4{
+    opacity: 1;
+}
+.logo_type:hover~.f5{
+    opacity: 1;
+}
+
+.f2{
+    position: absolute;
+    width: 26%;
+    opacity: 0;
+    margin-top: 105%;
+    margin-left: 30%;
+
+}
+
+.f3{
+    position: absolute;
+    width: 31%;
+    opacity: 0;
+    margin-top: 25%;
+}
+
+.f4{
+    position: absolute;
+    width: 28%;
+    opacity: 0;
+    margin-left: 85%;
+    margin-top: 50%;
+}
+
+.f5{
+    position: absolute;
+    width: 8%;
+    opacity: 0;
+    margin-left: 80%;
+    
+}
+
+.videoo{
+    position: absolute;
+    width: 34vw;
+    height: 22vw;
+    margin-top: 50%;
+    margin-left: 60%;
+}
+
+.text3{
+    position: absolute;
+    margin-top: 87%;
+    width: 24%;
+}
+
+.text4{
+    position: absolute;
+    margin-top: 87%;
+    width: 24%;
+    margin-left: 30%;
+}
+
+.text5{
+    position: absolute;
+    margin-top: 87%;
+    width: 24%;
+    margin-left: 60%;
+}
+
+.stones{
+position: absolute;
+width: 20%;
+margin-top: 110%;
+}
+
+.stone_1{
+    position: absolute;
+    width: 76%;
+    margin-top: -66%;
+    z-index: 2;
+}
+
+.stone_1:hover{
+    opacity: 0;
+}
+
+.stone_1:hover~.stone_1_k{
+    opacity: 1;
+}
+
+.stone_1_k{
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    width: 76%;
+    margin-top: -66%;
+    
+}
+.stone_2{
+    position: absolute;
+    width: 100%;
+    rotate: 190deg;
+    margin-left: 3%;
+    margin-top: 6%;
+    z-index: 2;
+}
+
+.stone_2:hover{
+    opacity: 0;
+}
+
+.stone_2:hover~.stone_2_k{
+    opacity: 1;
+}
+
+.stone_2_k{
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    rotate: 190deg;
+    margin-left: 3%;
+    margin-top: 6%;
+}
+
+.stone_3{
+    position: absolute;
+    width: 60%;
+    margin-top: -65%;
+    margin-left: 77%;
+    z-index: 2;
+}
+
+.stone_3:hover{
+    opacity: 0;
+}
+
+.stone_3:hover~.stone_3_k{
+    opacity: 1;
+}
+
+.stone_3_k{
+    opacity: 0;
+    position: absolute;
+    width: 60%;
+    margin-top: -65%;
+    margin-left: 77%; 
+}
+
+.stone_12{
+    position: absolute;
+    width: 67%;
+    margin-top: 38%;
+    margin-left: 104%;
+    z-index: 2;
+}
+.stone_12_k{
+    opacity: 0;
+    position: absolute;
+    width: 67%;
+    margin-top: 38%;
+    margin-left: 104%;
+    
+}
+
+.stone_12:hover{
+    opacity: 0;
+}
+
+.stone_12:hover~.stone_12_k{
+    opacity: 1;
+}
+
+.stone_22{
+    position: absolute;
+    width: 50%;
+    rotate: 190deg;
+    margin-left: 120%;
+    margin-top: -19%;
+    z-index: 2;
+}
+.stone_22_k{
+    opacity: 0;
+    position: absolute;
+    width: 50%;
+    rotate: 190deg;
+    margin-left: 120%;
+    margin-top: -19%;
+}
+
+.stone_22:hover{
+    opacity: 0;
+}
+
+.stone_22:hover~.stone_22_k{
+    opacity: 1;
+}
+
+.stone_32{
+    position: absolute;
+    width: 60%;
+    margin-top: 38%;
+    margin-left: 172%;
+    z-index: 2;
+}
+
+.stone_32_k{
+    opacity: 0;
+    position: absolute;
+    width: 60%;
+    margin-top: 38%;
+    margin-left: 172%;
+}
+
+.stone_32:hover{
+    opacity: 0;
+}
+
+.stone_32:hover~.stone_32_k{
+    opacity: 1;
+}
+
+.stone_23{
+    position: absolute;
+    width: 34%;
+    rotate: 190deg;
+    margin-left: 223%;
+    margin-top: 74%;
+    z-index: 2;
+}
+.stone_23_k{
+    opacity: 0;
+    position: absolute;
+    width: 34%;
+    rotate: 190deg;
+    margin-left: 223%;
+    margin-top: 74%;
+}
+
+.stone_23:hover{
+    opacity: 0;
+}
+
+.stone_23:hover~.stone_23_k{
+    opacity: 1;
+}
+
+.contacts{
+    position: absolute;
+    margin-top: 130%;
+    width: 24%;
+    margin-left: 80%;
+}
+
+input{
+    border-color: black;
+    border-radius: 0deg;
+}
+
+.forma{
+    position: absolute;
+    margin-top: 110%;
+    margin-left: 80%;
+    width: 16%;
+}
+
+.name{
+    position: absolute;
+
+}
+.telefon{
+    position: absolute;
+    margin-top: 12%;
+}
+.pochta{
+    position: absolute;
+    margin-top: 24%;
+}
+
+button{
+    cursor: pointer;
+    position: absolute;
+    margin-top: 36%;
+    border-color: black;
+    border-radius: 0deg;
+    background-color: white;
+}
+
+button:hover{
+    background-color: rgb(193, 193, 193);
+}
